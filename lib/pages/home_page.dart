@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Center(child: Text("Home Page")),
       appBar: AppBar(title: Center(child: Text("Foodak"))),
-      drawer: Drawer(),
+      drawer: Drawer(child: Center(child: Text("data"))),
     );
   }
 }
